@@ -37,6 +37,7 @@ return sprintf ("Hola, %s.\n", $this->foobar);
 class c
 {
 private $:foobar;
+private $:lorem;
 function __construct($foobar)
 {
 
