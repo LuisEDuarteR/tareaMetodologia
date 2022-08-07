@@ -1,5 +1,6 @@
-<?php
-echo "proyecto de meotdologia\n";
+git remote add origin https://github.com/LuisEDuarteR/tareaMetodologia.git
+git branch -M main
+git push -u origin main
 
 class A
 {
@@ -15,5 +16,4 @@ function __toString()
 {
 return sprintf ("Hola, %s.\n", $this->foobar);
 }
-}Añado la clase al archivo que estamnso traba
-
+}
