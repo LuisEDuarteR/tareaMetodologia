@@ -33,3 +33,19 @@ function __toString()
 return sprintf ("Hola, %s.\n", $this->foobar);
 }
 }
+
+class c
+{
+private $:foobar;
+function __construct($foobar)
+{
+
+31
+
+$this->nombre = $foobar;
+}
+function __toString()
+{
+return sprintf ("Hola, %s.\n", $this->foobar);
+}
+}
